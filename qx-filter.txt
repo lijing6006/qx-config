@@ -39,3 +39,14 @@ DOMAIN-SUFFIX,x.com,国外分流
 DOMAIN-SUFFIX,twitter.com,国外分流
 DOMAIN-SUFFIX,twimg.com,国外分流
 DOMAIN-SUFFIX,t.co,国外分流
+
+# YouTube
+DOMAIN-SUFFIX,youtube.com,国外分流
+DOMAIN-SUFFIX,youtu.be,国外分流
+DOMAIN-SUFFIX,googlevideo.com,国外分流
+DOMAIN-SUFFIX,ytimg.com,国外分流
+DOMAIN-SUFFIX,youtube-nocookie.com,国外分流
+
+# Bybit
+DOMAIN-SUFFIX,bybit.com,国外分流
+DOMAIN-SUFFIX,bytick.com,国外分流
