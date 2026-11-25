@@ -1,0 +1,41 @@
+# QX 分流规则（引用资源）：只有 Muse / Google / GitHub / Telegram / X 走「国外分流」，其余直连
+# 改规则只改这个文件，QX 会按 update-interval 自动更新，不用重下配置
+
+# Muse / Meta AI（API 在 meta.ai，账号走 facebook.com，沙箱走 metaaivm.com）
+DOMAIN-SUFFIX,muse.ai,国外分流
+DOMAIN-SUFFIX,meta.ai,国外分流
+DOMAIN-SUFFIX,facebook.com,国外分流
+DOMAIN-SUFFIX,metaaivm.com,国外分流
+
+# Google
+DOMAIN-SUFFIX,google.com,国外分流
+DOMAIN-SUFFIX,googleapis.com,国外分流
+DOMAIN-SUFFIX,gstatic.com,国外分流
+DOMAIN-SUFFIX,googleusercontent.com,国外分流
+DOMAIN-SUFFIX,ggpht.com,国外分流
+
+# GitHub
+DOMAIN-SUFFIX,github.com,国外分流
+DOMAIN-SUFFIX,githubusercontent.com,国外分流
+DOMAIN-SUFFIX,githubassets.com,国外分流
+DOMAIN-SUFFIX,github.io,国外分流
+
+# Telegram
+DOMAIN-SUFFIX,telegram.org,国外分流
+DOMAIN-SUFFIX,t.me,国外分流
+DOMAIN-SUFFIX,telegra.ph,国外分流
+IP-CIDR,91.108.4.0/22,国外分流,no-resolve
+IP-CIDR,91.108.8.0/22,国外分流,no-resolve
+IP-CIDR,91.108.12.0/22,国外分流,no-resolve
+IP-CIDR,91.108.16.0/22,国外分流,no-resolve
+IP-CIDR,91.108.56.0/22,国外分流,no-resolve
+IP-CIDR,149.154.160.0/20,国外分流,no-resolve
+IP6-CIDR,2001:b28:f23d::/48,国外分流,no-resolve
+IP6-CIDR,2001:b28:f23f::/48,国外分流,no-resolve
+IP6-CIDR,2001:67c:4e8::/48,国外分流,no-resolve
+
+# X (Twitter)
+DOMAIN-SUFFIX,x.com,国外分流
+DOMAIN-SUFFIX,twitter.com,国外分流
+DOMAIN-SUFFIX,twimg.com,国外分流
+DOMAIN-SUFFIX,t.co,国外分流
